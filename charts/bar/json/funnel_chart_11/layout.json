@@ -1,0 +1,17 @@
+{
+    "title": {
+        "text": "Healthcare Patient Funnel",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    },
+    "yaxis": {
+        "title": "Stages",
+        "autorange": "reversed"
+    },
+    "xaxis": {
+        "title": "Patients"
+    }
+}

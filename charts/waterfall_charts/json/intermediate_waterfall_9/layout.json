@@ -1,0 +1,30 @@
+{
+    "title": {
+        "text": "Cost Analysis",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    },
+    "xaxis": {
+        "title": {
+            "text": "Categories",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    },
+    "yaxis": {
+        "title": {
+            "text": "Costs",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    }
+}

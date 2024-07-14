@@ -1,0 +1,30 @@
+{
+    "title": {
+        "text": "Highest Grossing Romantic Comedy Movies",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    },
+    "xaxis": {
+        "title": {
+            "text": "Movie",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    },
+    "yaxis": {
+        "title": {
+            "text": "Revenue (in millions of US dollars)",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    }
+}

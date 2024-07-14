@@ -1,0 +1,10 @@
+Category,Value,Measure
+Beginning,0,total
+Sales 1,500,relative
+Sales 2,300,relative
+Returns 1,-50,relative
+Returns 2,-20,relative
+Net Sales 1,700,total
+Expenses 1,-100,relative
+Expenses 2,-120,relative
+Profit,200,total

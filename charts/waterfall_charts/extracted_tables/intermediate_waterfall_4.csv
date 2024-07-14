@@ -1,0 +1,7 @@
+Category,Value,Measure
+Beginning,0,relative
+Purchases 1,500,relative
+Purchases 2,200,relative
+Returns 1,-50,relative
+Returns 2 Net Inventory,-20,relative
+Sales,620,absolute

@@ -1,0 +1,29 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Planned 1",
+            "Planned 2",
+            "Actual 1",
+            "Actual 2",
+            "Net Allocation"
+        ],
+        "y": [
+            0,
+            600,
+            300,
+            -450,
+            -200,
+            100
+        ],
+        "measure": [
+            "relative",
+            "total",
+            "total",
+            "relative",
+            "relative",
+            "total"
+        ]
+    }
+]

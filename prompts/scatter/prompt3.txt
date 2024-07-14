@@ -1,0 +1,77 @@
+## Task: Extract Detailed Information from a Given Scatter Plot Image and Regenerate Using Plotly.
+
+You will analyze a scatter plot image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Scatter Plot:
+   - Gather the data points for the scatter plot.
+     - Extract `x` (values for x-axis) and `y` (values for y-axis).
+     - Identify any additional information such as markers, colors, or sizes.
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the scatter plot using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the scatter plot.
+   - Ensure the code includes the `x` and `y` data extracted from the scatter plot image.
+   - Customize the layout, markers, colors, or sizes to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the scatter plot
+x_values = [1, 2, 3, 4, 5]
+y_values = [10, 15, 13, 17, 20]
+
+# Create trace for the scatter plot
+fig = go.Figure(go.Scatter(
+    x=x_values,
+    y=y_values,
+    mode='markers',  # Change to 'lines', 'markers', 'lines+markers' as needed
+    marker=dict(
+        color='blue',  # Change color as needed
+        size=10,       # Change size as needed
+        symbol='circle'  # Change symbol as needed
+    )
+))
+
+# Customize layout
+fig.update_layout(
+    title='Scatter Plot Example',
+    xaxis_title='X Axis',
+    yaxis_title='Y Axis',
+    title_font_family='Arial, sans-serif',
+    title_font_size=24,
+    title_font_color='#000000',
+    xaxis=dict(
+        title=dict(
+            font=dict(
+                family='Arial, sans-serif',
+                size=18,
+                color='#000000'
+            )
+        )
+    ),
+    yaxis=dict(
+        title=dict(
+            font=dict(
+                family='Arial, sans-serif',
+                size=18,
+                color='#000000'
+            )
+        )
+    ),
+    plot_bgcolor='white'
+)
+
+# Display the chart
+fig.show()
+</code>
+ 

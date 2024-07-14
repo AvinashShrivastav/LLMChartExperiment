@@ -1,0 +1,111 @@
+## Task: Extract Detailed Information from a Given Heatmap Chart Image.
+
+You will analyze a heatmap chart image and generate corresponding Plotly-compatible JSON files (`data.json`, `layout.json`, and `config.json`). Follow the structured steps and specific XML-like delimiters for each JSON section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Heatmap Chart:
+   - Gather the data points for the heatmap chart.
+     - Extract `x` (categories) and `y` (categories) values for the heatmap grid.
+     - Extract `z` (values) corresponding to each pair of `x` and `y`.
+
+#### Generate JSON and CSV Outputs:
+
+Follow the JSON formatting guidelines and wrap each section in the specified XML-like tags.
+
+1. **Generate `data.json`**:
+   - Include detailed information for the heatmap chart:
+     - `"type": "heatmap"`
+     - `"x"`: Array of category labels for the x-axis.
+     - `"y"`: Array of category labels for the y-axis.
+     - `"z"`: Two-dimensional array of values for each cell in the heatmap grid.
+
+2. **Generate `layout.json`**:
+   - Define the layout properties specific to the heatmap chart.
+
+3. **Generate `config.json`**:
+   - Include settings specific to the heatmap chart visualization.
+
+4. **Generate `<csv>`**:
+   - Format the CSV data specifically for heatmap values.
+
+### Output Format:
+
+Wrap each JSON output in the specified XML-like tags:
+
+- `<data> ... </data>`
+- `<layout> ... </layout>`
+- `<config> ... </config>`
+- `<csv> ... </csv>`
+
+Ensure the JSON format follows these rules:
+- Use double quotes for all keys and string values.
+- Do not include trailing commas in arrays or objects.
+
+### Example Output:
+
+```xml
+<data>
+[
+  {
+    "type": "heatmap",
+    "x": ["Category A", "Category B", "Category C"],
+    "y": ["Category X", "Category Y", "Category Z"],
+    "z": [
+      [1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]
+    ]
+  }
+]
+</data>
+<layout>
+{
+  "title": {
+    "text": "Heatmap Example",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 24,
+      "color": "#000000"
+    }
+  },
+  "xaxis": {
+    "title": {
+      "text": "X Axis",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  },
+  "yaxis": {
+    "title": {
+      "text": "Y Axis",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  }
+}
+</layout>
+<config>
+{
+  "responsive": true,
+  "displayModeBar": true,
+  "modeBarButtonsToRemove": ["toImage"],
+  "scrollZoom": true
+}
+</config>
+<csv>
+,Category A,Category B,Category C
+Category X,1,2,3
+Category Y,4,5,6
+Category Z,7,8,9
+</csv>
+make sure csv is formatted correctly
+

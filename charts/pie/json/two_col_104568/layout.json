@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Market Share by Region",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    }
+}

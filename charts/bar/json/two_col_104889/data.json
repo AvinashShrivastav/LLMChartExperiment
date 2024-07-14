@@ -1,0 +1,43 @@
+[
+    {
+        "type": "bar",
+        "x": [
+            "Kristen Stewart and Robert Pattinson",
+            "Rachel McAdams and Channing Tatum",
+            "Jennifer Aniston and Adam Sandler",
+            "Sarah Jessica Parker and Chris Noth",
+            "Julianne Moore and Steve Carell",
+            "Amanda Seyfried and Channing Tatum",
+            "Natalie Portman and Ashton Kutcher",
+            "Miley Cyrus and Liam Hemsworth",
+            "Zac Efron and Taylor Schilling",
+            "Reese Witherspoon and Robert Pattinson"
+        ],
+        "y": [
+            1170,
+            125,
+            103,
+            95,
+            84,
+            80,
+            71,
+            63,
+            60,
+            59
+        ],
+        "marker": {
+            "color": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd",
+                "#8c564b",
+                "#e377c2",
+                "#7f7f7f",
+                "#bcbd22",
+                "#17becf"
+            ]
+        }
+    }
+]

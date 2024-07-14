@@ -1,0 +1,29 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Marketing 1",
+            "Marketing 2",
+            "Sales 1",
+            "Sales 2",
+            "Net Gain"
+        ],
+        "y": [
+            0,
+            -100,
+            -50,
+            150,
+            100,
+            250
+        ],
+        "measure": [
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "total"
+        ]
+    }
+]

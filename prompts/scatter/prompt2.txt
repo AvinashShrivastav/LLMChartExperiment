@@ -1,0 +1,117 @@
+## Task: Extract Detailed Information from a Given Scatter Chart Image.
+
+You will analyze a scatter chart image and generate corresponding Plotly-compatible JSON files (`data.json`, `layout.json`, and `config.json`). Follow the structured steps and specific XML-like delimiters for each JSON section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Scatter Chart:
+   - Gather the data points for the scatter chart.
+     - Extract `x` (categories) and `y` (values) for each point in the chart.
+     - Identify any additional attributes such as `color`, `size`, and `text` for each point if applicable.
+
+#### Generate JSON and CSV Outputs:
+
+Follow the JSON formatting guidelines and wrap each section in the specified XML-like tags.
+
+1. **Generate `data.json`**:
+   - Include detailed information for the scatter chart:
+     - `"type": "scatter"`
+     - `"mode"`: `"markers"` (or `"lines+markers"` if applicable)
+     - `"x"`: Array of x-values for the scatter plot.
+     - `"y"`: Array of y-values for the scatter plot.
+     - `"marker"`: Object containing `color` and `size` arrays if applicable.
+     - `"text"`: Array of text labels for each point if applicable.
+
+2. **Generate `layout.json`**:
+   - Define the layout properties specific to the scatter chart.
+
+3. **Generate `config.json`**:
+   - Include settings specific to the scatter chart visualization.
+
+4. **Generate `<csv>`**:
+   - Format the CSV data specifically for scatter chart values.
+
+### Output Format:
+
+Wrap each JSON output in the specified XML-like tags:
+
+- `<data> ... </data>`
+- `<layout> ... </layout>`
+- `<config> ... </config>`
+- `<csv> ... </csv>`
+
+Ensure the JSON format follows these rules:
+- Use double quotes for all keys and string values.
+- Do not include trailing commas in arrays or objects.
+
+### Example Output:
+
+```xml
+<data>
+[
+  {
+    "type": "scatter",
+    "mode": "markers",
+    "x": [1, 2, 3, 4],
+    "y": [10, 15, 13, 17],
+    "marker": {
+      "color": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"],
+      "size": [10, 20, 30, 40]
+    },
+    "text": ["Point A", "Point B", "Point C", "Point D"]
+  }
+]
+</data>
+<layout>
+{
+  "title": {
+    "text": "Scatter Chart Example",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 24,
+      "color": "#000000"
+    }
+  },
+  "xaxis": {
+    "title": {
+      "text": "X Axis",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  },
+  "yaxis": {
+    "title": {
+      "text": "Y Axis",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  }
+}
+</layout>
+<config>
+{
+  "responsive": true,
+  "displayModeBar": true,
+  "modeBarButtonsToRemove": ["toImage"],
+  "scrollZoom": true
+}
+</config>
+<csv>
+X,Y,Color,Size,Text
+1,10,#1f77b4,10,"Point A"
+2,15,#ff7f0e,20,"Point B"
+3,13,#2ca02c,30,"Point C"
+4,17,#d62728,40,"Point D"
+</csv>
+make sure csv is formatted correctly
+
+ 
+ 

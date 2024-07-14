@@ -1,0 +1,15 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Event Invitation Sent",
+            "RSVPs",
+            "Attendees"
+        ],
+        "values": [
+            1000,
+            755,
+            496
+        ]
+    }
+]

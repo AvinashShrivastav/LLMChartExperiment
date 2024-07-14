@@ -1,0 +1,20 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "Working",
+            "Not Working"
+        ],
+        "values": [
+            93.8,
+            6.3
+        ],
+        "marker": {
+            "colors": [
+                "#1f77b4",
+                "#ff7f0e"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

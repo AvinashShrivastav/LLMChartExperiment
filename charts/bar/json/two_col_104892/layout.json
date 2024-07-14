@@ -1,0 +1,30 @@
+{
+    "title": {
+        "text": "Number of Victims",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    },
+    "xaxis": {
+        "title": {
+            "text": "Gender",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    },
+    "yaxis": {
+        "title": {
+            "text": "Number of Victims",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Property Inquiry",
+            "Site Visit",
+            "Offer Made",
+            "Sale Closed"
+        ],
+        "values": [
+            1000,
+            659,
+            380,
+            174
+        ]
+    }
+]

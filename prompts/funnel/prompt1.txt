@@ -1,0 +1,305 @@
+## Task: Recreate a Chart Using Plotly Based on a Given Image.
+
+You will analyze a chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points**:
+   - Analyze the chart image to gather data points.
+     - Identify the structure, including `x` (values for x-axis), `y` (values for y-axis), and any additional properties such as markers, colors, labels, etc.
+#### Generate Python Code to Regenerate Chart:
+Write Python code to recreate the chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the chart.
+   - Ensure the code includes the `x` and `y` data extracted from the chart image.
+   - Customize the layout, colors, markers, annotations, and any other properties to match the original chart.
+
+### Example Output:
+#### Line Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the line chart (replace with extracted data)
+x_values = [1, 2, 3, 4, 5]
+y_values = [10, 15, 13, 17, 20]
+
+# Create trace for the line chart
+fig = go.Figure(go.Scatter(
+    x=x_values,
+    y=y_values,
+    mode='lines+markers',  # Adjust mode as needed ('lines', 'markers', 'lines+markers')
+    line=dict(color='blue'),  # Adjust line color as needed
+    marker=dict(symbol='circle', size=10, color='red'),  # Adjust marker properties as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Line Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    xaxis_title='X Axis Label',  # Replace with extracted x-axis label
+    xaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust x-axis font family as needed
+        size=18,  # Adjust x-axis font size as needed
+        color='#000000'  # Adjust x-axis font color as needed
+    ),
+    yaxis_title='Y Axis Label',  # Replace with extracted y-axis label
+    yaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust y-axis font family as needed
+        size=18,  # Adjust y-axis font size as needed
+        color='#000000'  # Adjust y-axis font color as needed
+    ),
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Bar Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the bar chart (replace with extracted data)
+x_categories = ['Category 1', 'Category 2', 'Category 3']
+y_values = [10, 20, 15]
+
+# Create trace for the bar chart
+fig = go.Figure(go.Bar(
+    x=x_categories,
+    y=y_values,
+    marker_color='rgb(55, 83, 109)',  # Change color as needed
+    text=y_values,
+    textposition='auto'  # Adjust text position as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Bar Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    xaxis_title='Categories',  # Replace with extracted x-axis label
+    xaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust x-axis font family as needed
+        size=18,  # Adjust x-axis font size as needed
+        color='#000000'  # Adjust x-axis font color as needed
+    ),
+    yaxis_title='Values',  # Replace with extracted y-axis label
+    yaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust y-axis font family as needed
+        size=18,  # Adjust y-axis font size as needed
+        color='#000000'  # Adjust y-axis font color as needed
+    ),
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Pie Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the pie chart (replace with extracted data)
+labels = ['Label 1', 'Label 2', 'Label 3']
+values = [40, 30, 30]
+
+# Create trace for the pie chart
+fig = go.Figure(go.Pie(
+    labels=labels,
+    values=values,
+    hole=0.3,  # Set to 0 for a regular pie chart
+    pull=[0.1, 0, 0]  # Adjust pull for each slice (0 means no pull)
+))
+
+# Customize layout
+fig.update_layout(
+    title='Pie Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Scatter Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the scatter chart (replace with extracted data)
+x_values = [1, 2, 3, 4, 5]
+y_values = [10, 15, 13, 17, 20]
+
+# Create trace for the scatter chart
+fig = go.Figure(go.Scatter(
+    x=x_values,
+    y=y_values,
+    mode='markers',  # Adjust mode as needed ('markers', 'lines', 'lines+markers')
+    marker=dict(color='blue', size=10),  # Adjust marker properties as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Scatter Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    xaxis_title='X Axis Label',  # Replace with extracted x-axis label
+    xaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust x-axis font family as needed
+        size=18,  # Adjust x-axis font size as needed
+        color='#000000'  # Adjust x-axis font color as needed
+    ),
+    yaxis_title='Y Axis Label',  # Replace with extracted y-axis label
+    yaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust y-axis font family as needed
+        size=18,  # Adjust y-axis font size as needed
+        color='#000000'  # Adjust y-axis font color as needed
+    ),
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Waterfall Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the waterfall chart (replace with extracted data)
+x_values = ['Start', 'Category A', 'Category B', 'End']
+y_values = [1000, 500, -200, 1300]
+measure = ['absolute', 'relative', 'relative', 'absolute']
+
+# Create trace for the waterfall chart
+fig = go.Figure(go.Waterfall(
+    x=x_values,
+    y=y_values,
+    measure=measure,
+))
+
+# Customize layout
+fig.update_layout(
+    title='Waterfall Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Heatmap Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the heatmap chart (replace with extracted data)
+x_categories = ['Category 1', 'Category 2', 'Category 3']
+y_categories = ['Category A', 'Category B', 'Category C']
+z_values = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Create trace for the heatmap chart
+fig = go.Figure(go.Heatmap(
+    x=x
+
+_categories,
+    y=y_categories,
+    z=z_values,
+    colorscale='Viridis',  # Adjust colorscale as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Heatmap Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    xaxis_title='X Axis Label',  # Replace with extracted x-axis label
+    xaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust x-axis font family as needed
+        size=18,  # Adjust x-axis font size as needed
+        color='#000000'  # Adjust x-axis font color as needed
+    ),
+    yaxis_title='Y Axis Label',  # Replace with extracted y-axis label
+    yaxis_title_font=dict(
+        family='Arial, sans-serif',  # Adjust y-axis font family as needed
+        size=18,  # Adjust y-axis font size as needed
+        color='#000000'  # Adjust y-axis font color as needed
+    ),
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Funnel Chart Example:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the funnel chart (replace with extracted data)
+labels = ['Stage 1', 'Stage 2', 'Stage 3', 'Stage 4']
+values = [4000, 3000, 2000, 1000]
+
+# Create trace for the funnel chart
+fig = go.Figure(go.Funnel(
+    y=labels,
+    x=values,
+    textinfo='value+percent initial',  # Adjust text info as needed
+    marker=dict(color='blue'),  # Adjust marker color as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Funnel Chart Example',  # Replace with extracted title
+    title_font_family='Arial, sans-serif',  # Adjust title font family as needed
+    title_font_size=24,  # Adjust title font size as needed
+    title_font_color='#000000',  # Adjust title font color as needed
+    plot_bgcolor='white'  # Adjust plot background color as needed
+)
+
+# Display the chart
+fig.show()
+</code>
+```
+
+#### Additional Chart Types:
+
+For other chart types (e.g., box plot, violin plot, radar chart, etc.), adapt the Python code by using the corresponding Plotly trace types and customizing the layout accordingly. Ensure to replace the placeholder data (`x_values`, `y_values`, etc.) with the actual data extracted from the chart image.
+```

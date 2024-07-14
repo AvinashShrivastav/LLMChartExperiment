@@ -1,0 +1,51 @@
+[
+    {
+        "type": "heatmap",
+        "x": [
+            "Location X",
+            "Location Y",
+            "Location Z"
+        ],
+        "y": [
+            "Location Z",
+            "Location Y",
+            "Location X"
+        ],
+        "z": [
+            [
+                60,
+                55,
+                50
+            ],
+            [
+                55,
+                50,
+                45
+            ],
+            [
+                50,
+                45,
+                40
+            ]
+        ],
+        "hoverongaps": false,
+        "colorscale": [
+            [
+                0,
+                "#40004b"
+            ],
+            [
+                0.33,
+                "#762a83"
+            ],
+            [
+                0.66,
+                "#af59ba"
+            ],
+            [
+                1,
+                "#e4a3d3"
+            ]
+        ]
+    }
+]

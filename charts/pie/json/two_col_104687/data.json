@@ -1,0 +1,23 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "European countries",
+            "Italy",
+            "Other countries"
+        ],
+        "values": [
+            52.49,
+            43.83,
+            3.68
+        ],
+        "marker": {
+            "colors": [
+                "#0070b0",
+                "#00b0ff",
+                "#d9d9d9"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

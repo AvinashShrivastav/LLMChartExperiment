@@ -1,0 +1,7 @@
+Category,Value,Measure
+Beginning,0,relative
+Revenue 1,1000,relative
+Revenue 2,500,relative
+Costs 1,-500,relative
+Costs 2,-200,relative
+Net Profit,300,absolute

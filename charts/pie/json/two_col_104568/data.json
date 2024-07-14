@@ -1,0 +1,29 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "Asia-Pacific",
+            "Western Europe",
+            "North America",
+            "Japan",
+            "Rest of the World"
+        ],
+        "values": [
+            39,
+            27,
+            21,
+            7,
+            6
+        ],
+        "marker": {
+            "colors": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

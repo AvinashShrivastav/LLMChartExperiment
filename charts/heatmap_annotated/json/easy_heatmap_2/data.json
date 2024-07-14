@@ -1,0 +1,32 @@
+[
+    {
+        "type": "heatmap",
+        "x": [
+            "Company A",
+            "Company B",
+            "Company C"
+        ],
+        "y": [
+            "Company A",
+            "Company B",
+            "Company C"
+        ],
+        "z": [
+            [
+                30,
+                60,
+                90
+            ],
+            [
+                20,
+                50,
+                80
+            ],
+            [
+                10,
+                40,
+                70
+            ]
+        ]
+    }
+]

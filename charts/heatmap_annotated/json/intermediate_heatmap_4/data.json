@@ -1,0 +1,15 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Visitors",
+            "Leads",
+            "Customers"
+        ],
+        "values": [
+            1000,
+            600,
+            400
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Job Application",
+            "Screening",
+            "Interviews",
+            "Offer",
+            "Hired"
+        ],
+        "values": [
+            1000,
+            740,
+            345,
+            152,
+            73
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+## Task: Extract Detailed Information from a Given Line Chart Image and Regenerate Using Plotly.
+
+You will analyze a line chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Line Chart:
+   - Gather the data points for the line chart.
+     - Extract `x` (values for x-axis) and `y` (values for y-axis).
+     - Identify any additional information such as line colors or markers.
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the line chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the line chart.
+   - Ensure the code includes the `x` and `y` data extracted from the line chart image.
+   - Customize the layout, colors, markers, and any other properties to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the line chart
+x_values = [1, 2, 3, 4, 5]
+y_values = [10, 15, 13, 17, 20]
+
+# Create trace for the line chart
+fig = go.Figure(go.Scatter(
+    x=x_values,
+    y=y_values,
+    mode='lines+markers',  # Change to 'lines', 'markers', 'lines+markers' as needed
+    line=dict(color='blue'),  # Change line color as needed
+    marker=dict(symbol='circle', size=10, color='red'),  # Change marker properties as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Line Chart Example',
+    title_font_family='Arial, sans-serif',
+    title_font_size=24,
+    title_font_color='#000000',
+    xaxis_title='X Axis',
+    xaxis_title_font=dict(
+        family='Arial, sans-serif',
+        size=18,
+        color='#000000'
+    ),
+    yaxis_title='Y Axis',
+    yaxis_title_font=dict(
+        family='Arial, sans-serif',
+        size=18,
+        color='#000000'
+    ),
+    plot_bgcolor='white'
+)
+
+# Display the chart
+fig.show()
+</code>
+
+ 

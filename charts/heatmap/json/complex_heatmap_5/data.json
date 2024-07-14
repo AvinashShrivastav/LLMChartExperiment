@@ -1,0 +1,27 @@
+[
+    {
+        "type": "heatmap",
+        "x": [
+            "Location X",
+            "Location Y",
+            "Location Z"
+        ],
+        "y": [
+            "Location Z",
+            "Location Y",
+            "Location X"
+        ],
+        "z": [
+            [
+                45,
+                38,
+                32
+            ],
+            [
+                48,
+                35,
+                50
+            ]
+        ]
+    }
+]

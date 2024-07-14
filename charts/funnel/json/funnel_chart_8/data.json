@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Impressions",
+            "Likes",
+            "Shares",
+            "Comments"
+        ],
+        "values": [
+            1000,
+            383,
+            233,
+            123
+        ]
+    }
+]

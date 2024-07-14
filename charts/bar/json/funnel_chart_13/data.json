@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Course Inquiry",
+            "Application Submitted",
+            "Accepted",
+            "Enrolled"
+        ],
+        "values": [
+            1000,
+            701,
+            414,
+            325
+        ]
+    }
+]

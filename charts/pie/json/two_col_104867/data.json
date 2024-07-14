@@ -1,0 +1,26 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "Clothing",
+            "Home d\u00e9cor/garden",
+            "Footwear",
+            "Other"
+        ],
+        "values": [
+            38.31,
+            29.54,
+            27.88,
+            4.27
+        ],
+        "marker": {
+            "colors": [
+                "#1f77b4",
+                "#2ca02c",
+                "#ff7f0e",
+                "#d62728"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

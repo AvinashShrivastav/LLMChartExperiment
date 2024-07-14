@@ -1,0 +1,30 @@
+{
+    "title": {
+        "text": "Temperature Heatmap",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    },
+    "xaxis": {
+        "title": {
+            "text": "City",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    },
+    "yaxis": {
+        "title": {
+            "text": "City",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    }
+}

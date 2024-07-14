@@ -1,0 +1,30 @@
+{
+    "title": {
+        "text": "Scientific Data Heatmap",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#000000"
+        }
+    },
+    "xaxis": {
+        "title": {
+            "text": "Gene 1",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    },
+    "yaxis": {
+        "title": {
+            "text": "Gene 3",
+            "font": {
+                "family": "Arial, sans-serif",
+                "size": 18,
+                "color": "#000000"
+            }
+        }
+    }
+}

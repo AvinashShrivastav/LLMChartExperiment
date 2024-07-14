@@ -1,0 +1,107 @@
+## Task: Extract Detailed Information from a Given Waterfall Chart Image.
+
+You will analyze a waterfall chart image and generate corresponding Plotly-compatible JSON files (`data.json`, `layout.json`, and `config.json`). Follow the structured steps and specific XML-like delimiters for each JSON section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Waterfall Chart:
+   - Gather the data points for the waterfall chart.
+     - Extract `x` (categories) and `y` (values) for the waterfall chart.
+     - Identify and categorize the changes (`increases`, `decreases`, and `totals`).
+
+#### Generate JSON and CSV Outputs:
+
+Follow the JSON formatting guidelines and wrap each section in the specified XML-like tags.
+
+1. **Generate `data.json`**:
+   - Include detailed information for the waterfall chart:
+     - `"type": "waterfall"`
+     - `"x"`: Array of category labels for the x-axis.
+     - `"y"`: Array of values for each category.
+     - `"measure"`: Array indicating the type of each value (`"relative"`, `"total"`).
+
+2. **Generate `layout.json`**:
+   - Define the layout properties specific to the waterfall chart.
+
+3. **Generate `config.json`**:
+   - Include settings specific to the waterfall chart visualization.
+
+4. **Generate `<csv>`**:
+   - Format the CSV data specifically for waterfall chart values.
+
+### Output Format:
+
+Wrap each JSON output in the specified XML-like tags:
+
+- `<data> ... </data>`
+- `<layout> ... </layout>`
+- `<config> ... </config>`
+- `<csv> ... </csv>`
+
+Ensure the JSON format follows these rules:
+- Use double quotes for all keys and string values.
+- Do not include trailing commas in arrays or objects.
+
+### Example Output:
+
+```xml
+<data>
+[
+  {
+    "type": "waterfall",
+    "x": ["Start", "Category A", "Category B", "End"],
+    "y": [1000, 500, -200, 1300],
+    "measure": ["absolute", "relative", "relative", "absolute"]
+  }
+]
+</data>
+<layout>
+{
+  "title": {
+    "text": "Waterfall Chart Example",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 24,
+      "color": "#000000"
+    }
+  },
+  "xaxis": {
+    "title": {
+      "text": "Categories",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  },
+  "yaxis": {
+    "title": {
+      "text": "Values",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  }
+}
+</layout>
+<config>
+{
+  "responsive": true,
+  "displayModeBar": true,
+  "modeBarButtonsToRemove": ["toImage"],
+  "scrollZoom": true
+}
+</config>
+<csv>
+Category,Value,Measure
+Start,1000,absolute
+Category A,500,relative
+Category B,-200,relative
+End,1300,absolute
+</csv>
+make sure csv is formatted correctly

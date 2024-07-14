@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Downloaded Trial",
+            "Installed",
+            "Activated Trial",
+            "Paid Subscription"
+        ],
+        "values": [
+            1000,
+            412,
+            130,
+            67
+        ]
+    }
+]

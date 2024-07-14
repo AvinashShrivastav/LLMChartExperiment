@@ -1,0 +1,44 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "Documentary",
+            "Entertainment",
+            "Reality",
+            "Comedy",
+            "Lifestyle",
+            "Drama",
+            "Food",
+            "News and current affairs",
+            "Game shows",
+            "Others"
+        ],
+        "values": [
+            19.38,
+            13.18,
+            13.18,
+            9.69,
+            8.53,
+            6.59,
+            5.81,
+            5.43,
+            5.43,
+            11.63
+        ],
+        "marker": {
+            "colors": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd",
+                "#8c564b",
+                "#e377c2",
+                "#7f7f7f",
+                "#bcbd22",
+                "#17becf"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Purchases 1",
+            "Purchases 2",
+            "Returns 1",
+            "Returns 2",
+            "Net Inventory",
+            "Sales"
+        ],
+        "y": [
+            0,
+            500,
+            200,
+            -50,
+            -20,
+            620,
+            -300
+        ],
+        "measure": [
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "absolute",
+            "relative"
+        ]
+    }
+]

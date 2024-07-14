@@ -1,0 +1,9 @@
+Category,Value,Measure
+Beginning,0,relative
+Income 1,800,total
+Income 2,200,relative
+Income 3,100,relative
+Expenses 1,-500,relative
+Expenses 2,-100,relative
+Expenses 3,-200,relative
+Net Cash Flow,-100,total

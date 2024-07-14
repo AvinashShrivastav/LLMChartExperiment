@@ -1,0 +1,20 @@
+{
+    "title": {
+        "text": "Education Funnel",
+        "font": {
+            "family": "Arial, sans-serif",
+            "size": 24,
+            "color": "#7FDBFF"
+        }
+    },
+    "height": 500,
+    "width": 800,
+    "margin": {
+        "l": 100,
+        "r": 100,
+        "t": 100,
+        "b": 100
+    },
+    "funnelgap": 0.5,
+    "funnelmode": "reversed"
+}

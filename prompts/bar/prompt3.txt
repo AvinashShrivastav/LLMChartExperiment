@@ -1,0 +1,67 @@
+## Task: Extract Detailed Information from a Given Bar Chart Image and Regenerate Using Plotly.
+
+You will analyze a bar chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Bar Chart:
+   - Gather the data points for the bar chart.
+     - Extract `x` (categories) and `y` (values) for each bar.
+     - Identify any additional information such as bar colors or annotations.
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the bar chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the bar chart.
+   - Ensure the code includes the `x` and `y` data extracted from the bar chart image.
+   - Customize the layout, colors, annotations, and any other properties to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the bar chart
+x_categories = ['Category 1', 'Category 2', 'Category 3']
+y_values = [10, 20, 15]
+
+# Create trace for the bar chart
+fig = go.Figure(go.Bar(
+    x=x_categories,
+    y=y_values,
+    marker_color='rgb(55, 83, 109)',  # Change color as needed
+    text=y_values,
+    textposition='auto'  # Adjust text position as needed
+))
+
+# Customize layout
+fig.update_layout(
+    title='Bar Chart Example',
+    title_font_family='Arial, sans-serif',
+    title_font_size=24,
+    title_font_color='#000000',
+    xaxis_title='Categories',
+    xaxis_title_font=dict(
+        family='Arial, sans-serif',
+        size=18,
+        color='#000000'
+    ),
+    yaxis_title='Values',
+    yaxis_title_font=dict(
+        family='Arial, sans-serif',
+        size=18,
+        color='#000000'
+    ),
+    plot_bgcolor='white'
+)
+
+# Display the chart
+fig.show()
+</code>
+
+ 

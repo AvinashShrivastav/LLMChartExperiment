@@ -1,0 +1,23 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Income",
+            "Expenses",
+            "Net Cash Flow"
+        ],
+        "y": [
+            0,
+            800,
+            -600,
+            -400
+        ],
+        "measure": [
+            "relative",
+            "total",
+            "relative",
+            "total"
+        ]
+    }
+]

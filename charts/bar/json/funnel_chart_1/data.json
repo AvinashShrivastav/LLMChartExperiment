@@ -1,0 +1,19 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Prospects",
+            "Qualified Leads",
+            "Proposals Sent",
+            "Negotiations",
+            "Closed Deals"
+        ],
+        "values": [
+            1000,
+            715,
+            322,
+            112,
+            62
+        ]
+    }
+]

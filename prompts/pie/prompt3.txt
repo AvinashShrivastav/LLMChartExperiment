@@ -1,0 +1,52 @@
+## Task: Extract Detailed Information from a Given Pie Chart Image and Regenerate Using Plotly.
+
+You will analyze a pie chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Pie Chart:
+   - Gather the data points for the pie chart.
+     - Extract `labels` (categories) and `values` (percentages or counts) for each slice of the pie.
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the pie chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the pie chart.
+   - Ensure the code includes the `labels` and `values` data extracted from the pie chart image.
+   - Customize the layout, colors, and any other properties to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the pie chart
+labels = ['Label 1', 'Label 2', 'Label 3']
+values = [40, 30, 30]
+
+# Create trace for the pie chart
+fig = go.Figure(go.Pie(
+    labels=labels,
+    values=values,
+    hole=0.3,  # Set to 0 for a regular pie chart
+    pull=[0.1, 0, 0]  # Adjust pull for each slice (0 means no pull)
+))
+
+# Customize layout
+fig.update_layout(
+    title='Pie Chart Example',
+    title_font_family='Arial, sans-serif',
+    title_font_size=24,
+    title_font_color='#000000',
+    plot_bgcolor='white'
+)
+
+# Display the chart
+fig.show()
+</code>
+ 

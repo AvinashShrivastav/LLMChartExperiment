@@ -1,0 +1,23 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "With my family",
+            "With my life partner",
+            "Alone"
+        ],
+        "values": [
+            64,
+            22,
+            14
+        ],
+        "marker": {
+            "colors": [
+                "#a5ced0",
+                "#003f5c",
+                "#0077b6"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

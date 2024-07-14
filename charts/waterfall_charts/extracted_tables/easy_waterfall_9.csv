@@ -1,0 +1,5 @@
+Category,Cost,Measure
+Beginning,0,relative
+Labor,-200,relative
+Materials,-300,relative
+Total Costs,-500,total

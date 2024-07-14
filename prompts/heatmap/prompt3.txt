@@ -1,0 +1,71 @@
+## Task: Extract Detailed Information from a Given Heatmap Chart Image and Regenerate Using Plotly.
+
+You will analyze a heatmap chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Heatmap:
+   - Gather the data points for the heatmap chart.
+     - Extract `x` (categories) and `y` (categories) values for the heatmap grid.
+     - Extract `z` (values) corresponding to each pair of `x` and `y`.
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the heatmap chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the heatmap chart.
+   - Ensure the code includes the `x`, `y`, and `z` data extracted from the heatmap chart image.
+   - Customize the layout and colors to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the heatmap
+x_categories = ["Category A", "Category B", "Category C"]
+y_categories = ["Category X", "Category Y", "Category Z"]
+values = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Create trace for the heatmap
+fig = go.Figure(data=go.Heatmap(
+    z=values,
+    x=x_categories,
+    y=y_categories,
+    colorscale='Viridis',
+    hoverinfo='x+y+z'
+))
+
+# Customize layout
+fig.update_layout(
+    title="Heatmap Example",
+    title_font_family="Arial, sans-serif",
+    title_font_size=24,
+    title_font_color="#000000",
+    xaxis_title="X Axis",
+    xaxis_title_font=dict(
+        family="Arial, sans-serif",
+        size=18,
+        color="#000000"
+    ),
+    yaxis_title="Y Axis",
+    yaxis_title_font=dict(
+        family="Arial, sans-serif",
+        size=18,
+        color="#000000"
+    ),
+    plot_bgcolor="white"
+)
+
+# Display the chart
+fig.show()
+</code>
+ 

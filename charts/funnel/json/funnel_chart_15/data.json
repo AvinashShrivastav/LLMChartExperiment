@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Application Submitted",
+            "Under Review",
+            "Approved",
+            "Funds Disbursed"
+        ],
+        "values": [
+            1000,
+            302,
+            126,
+            67
+        ]
+    }
+]

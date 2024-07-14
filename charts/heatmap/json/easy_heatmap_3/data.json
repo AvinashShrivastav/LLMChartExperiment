@@ -1,0 +1,32 @@
+[
+    {
+        "type": "heatmap",
+        "x": [
+            "Category A",
+            "Category B",
+            "Category C"
+        ],
+        "y": [
+            "Category X",
+            "Category Y",
+            "Category Z"
+        ],
+        "z": [
+            [
+                1,
+                2,
+                3
+            ],
+            [
+                4,
+                5,
+                6
+            ],
+            [
+                7,
+                8,
+                9
+            ]
+        ]
+    }
+]

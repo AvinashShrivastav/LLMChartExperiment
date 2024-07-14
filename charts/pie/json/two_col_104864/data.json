@@ -1,0 +1,23 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "Less than before lockdown",
+            "The same amount",
+            "More than before lockdown"
+        ],
+        "values": [
+            5,
+            60,
+            35
+        ],
+        "marker": {
+            "colors": [
+                "#ccc",
+                "#1f77b4",
+                "#ff7f0e"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

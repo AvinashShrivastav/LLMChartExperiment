@@ -1,0 +1,22 @@
+Error processing D:/Chart/charts/heatmap_annotated/img\easy_heatmap_1.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\easy_heatmap_2.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\easy_heatmap_3.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\easy_heatmap_5.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\hard_heatmap_1.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\hard_heatmap_2.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\hard_heatmap_3.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\hard_heatmap_4.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\hard_heatmap_5.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\intermediate_heatmap_1.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\intermediate_heatmap_2.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\intermediate_heatmap_3.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\intermediate_heatmap_5.png: Expecting value: line 1 column 1 (char 0)
+Error processing D:/Chart/charts/heatmap_annotated/img\easy_heatmap_1.png: Expecting value: line 13 column 11 (char 259)
+Error processing D:/Chart/charts/heatmap_annotated/img\easy_heatmap_2.png: Expecting value: line 13 column 11 (char 279)
+Error processing D:/Chart/charts/heatmap_annotated/img\intermediate_heatmap_4.png: Expecting value: line 13 column 11 (char 262)
+Error processing D:/Chart/charts/line/img\two_col_104388.png: The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.
+Error processing D:/Chart/charts/pie/img\two_col_104561.png: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+Error processing D:/Chart/charts/pie/img\two_col_104568.png: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+Error processing charts/heatmap_annotated/img\easy_heatmap_1.png: Expecting value: line 13 column 11 (char 259)
+Error processing charts/heatmap_annotated/img\easy_heatmap_2.png: Expecting value: line 13 column 11 (char 279)
+Error processing charts/heatmap_annotated/img\intermediate_heatmap_4.png: Expecting value: line 13 column 11 (char 262)

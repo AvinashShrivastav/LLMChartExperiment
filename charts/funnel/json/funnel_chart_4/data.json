@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Visited Product Page",
+            "Added to Cart",
+            "Started Checkout",
+            "Completed Purchase"
+        ],
+        "values": [
+            1000,
+            372,
+            234,
+            98
+        ]
+    }
+]

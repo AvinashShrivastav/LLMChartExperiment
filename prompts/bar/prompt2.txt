@@ -1,0 +1,112 @@
+## Task: Extract Detailed Information from a Given Bar Chart Image.
+
+You will analyze a bar chart image and generate corresponding Plotly-compatible JSON files (`data.json`, `layout.json`, and `config.json`). Follow the structured steps and specific XML-like delimiters for each JSON section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Bar Chart:
+   - Gather the data points for the bar chart.
+     - Extract `x` (categories) and `y` (values) for each bar in the chart.
+     - Identify the colors, labels, and any other specific attributes associated with each bar.
+
+#### Generate JSON and CSV Outputs:
+
+Follow the JSON formatting guidelines and wrap each section in the specified XML-like tags.
+
+1. **Generate `data.json`**:
+   - Include detailed information for the bar chart:
+     - `"type": "bar"`
+     - `"x"`: Array of category labels for the x-axis.
+     - `"y"`: Array of values for each category.
+     - `"marker"`: Object containing `color` array for bar colors if applicable.
+     - `"text"`: Array of text labels for each bar if applicable.
+
+2. **Generate `layout.json`**:
+   - Define the layout properties specific to the bar chart.
+
+3. **Generate `config.json`**:
+   - Include settings specific to the bar chart visualization.
+
+4. **Generate `<csv>`**:
+   - Format the CSV data specifically for bar chart values.
+
+### Output Format:
+
+Wrap each JSON output in the specified XML-like tags:
+
+- `<data> ... </data>`
+- `<layout> ... </layout>`
+- `<config> ... </config>`
+- `<csv> ... </csv>`
+
+Ensure the JSON format follows these rules:
+- Use double quotes for all keys and string values.
+- Do not include trailing commas in arrays or objects.
+
+### Example Output:
+
+```xml
+<data>
+[
+  {
+    "type": "bar",
+    "x": ["Category A", "Category B", "Category C"],
+    "y": [20, 14, 23],
+    "marker": {
+      "color": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+    },
+    "text": ["Label A", "Label B", "Label C"]
+  }
+]
+</data>
+<layout>
+{
+  "title": {
+    "text": "Bar Chart Example",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 24,
+      "color": "#000000"
+    }
+  },
+  "xaxis": {
+    "title": {
+      "text": "Categories",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  },
+  "yaxis": {
+    "title": {
+      "text": "Values",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 18,
+        "color": "#000000"
+      }
+    }
+  }
+}
+</layout>
+<config>
+{
+  "responsive": true,
+  "displayModeBar": true,
+  "modeBarButtonsToRemove": ["toImage"],
+  "scrollZoom": true
+}
+</config>
+<csv>
+Characteristic,"Stop and searches per 1,000 population"
+South West,4
+Wales,8
+London,32
+England,10
+
+</csv>
+make sure csv is formatted correctly

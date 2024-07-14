@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Appointment Scheduled",
+            "Consultation",
+            "Treatment Plan",
+            "Recovery"
+        ],
+        "values": [
+            1000,
+            703,
+            399,
+            248
+        ]
+    }
+]

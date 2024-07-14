@@ -1,0 +1,73 @@
+## Task: Extract Detailed Information from a Given Funnel Chart Image and Regenerate Using Plotly.
+
+You will analyze a funnel chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Funnel Chart:
+   - Gather the data points for the funnel chart.
+     - Extract `labels` (stages) and `values` (counts) for each stage of the funnel.
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the funnel chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the funnel chart.
+   - Ensure the code includes the `labels` (stages) and `values` (counts) extracted from the funnel chart image.
+   - Customize the layout and colors to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the funnel chart
+labels = ["Visitors", "Leads", "Prospects", "Customers"]
+values = [1000, 600, 400, 200]
+
+# Create trace for the funnel chart
+fig = go.Figure(go.Funnel(
+    y=labels,
+    x=values,
+    textinfo="value+percent initial",
+    marker=dict(color=["deepskyblue", "lightskyblue", "powderblue", "lightblue"]),
+    connector={"line": {"color": "royalblue", "dash": "dot", "width": 3}}
+))
+
+# Customize layout
+fig.update_layout(
+    title="Funnel Chart Example",
+    title_font_family="Arial, sans-serif",
+    title_font_size=24,
+    title_font_color="#000000",
+    xaxis_title="Count",
+    yaxis_title="Stages",
+    xaxis=dict(
+        title=dict(
+            font=dict(
+                family="Arial, sans-serif",
+                size=18,
+                color="#000000"
+            )
+        )
+    ),
+    yaxis=dict(
+        title=dict(
+            font=dict(
+                family="Arial, sans-serif",
+                size=18,
+                color="#000000"
+            )
+        )
+    ),
+    plot_bgcolor="white"
+)
+
+# Display the chart
+fig.show()
+</code>
+

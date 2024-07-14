@@ -1,0 +1,72 @@
+## Task: Extract Detailed Information from a Given Waterfall Chart Image and Regenerate Using Plotly.
+
+You will analyze a waterfall chart image and regenerate the chart using Plotly with Python code. Follow the structured steps and specific XML-like delimiters for each section as outlined below.
+
+### Instructions:
+
+#### Graph Analysis:
+
+1. **Extract Data Points** for Waterfall Chart:
+   - Gather the data points for the waterfall chart.
+     - Extract `x` (categories) and `y` (values) for the waterfall chart.
+     - Identify and categorize the changes (`increases`, `decreases`, and `totals`).
+
+#### Generate Python Code to Regenerate Chart:
+
+Write Python code to recreate the waterfall chart using Plotly.
+
+1. **Python Code (`<code>...</code>`)**:
+   - Use Plotly to generate the waterfall chart.
+   - Ensure the code includes the `x`, `y`, and `measure` data extracted from the waterfall chart image.
+   - Customize the layout and colors to match the original chart.
+
+### Example Output:
+
+```xml
+<code>
+import plotly.graph_objects as go
+
+# Define data for the waterfall chart
+x_categories = ["Start", "Category A", "Category B", "End"]
+y_values = [1000, 500, -200, 1300]
+measure = ["absolute", "relative", "relative", "absolute"]
+
+# Create trace for the waterfall chart
+fig = go.Figure(go.Waterfall(
+    x=x_categories,
+    y=y_values,
+    measure=measure,
+    text=["Base", "+500", "-200", "Final Value"],
+    connector={"line": {"color": "rgb(63, 63, 63)"}},
+    decreasing={"marker": {"color": "Maroon", "line": {"color": "red", "width": 2}}},
+    increasing={"marker": {"color": "Teal"}},
+    totals={"marker": {"color": "deepskyblue", "line": {"color": "blue", "width": 3}}}
+))
+
+# Customize layout
+fig.update_layout(
+    title="Waterfall Chart Example",
+    title_font_family="Arial, sans-serif",
+    title_font_size=24,
+    title_font_color="#000000",
+    xaxis_title="Categories",
+    xaxis_title_font=dict(
+        family="Arial, sans-serif",
+        size=18,
+        color="#000000"
+    ),
+    yaxis_title="Values",
+    yaxis_title_font=dict(
+        family="Arial, sans-serif",
+        size=18,
+        color="#000000"
+    ),
+    plot_bgcolor="white"
+)
+
+# Display the chart
+fig.show()
+</code>
+ 
+
+

@@ -1,0 +1,49 @@
+[
+    {
+        "type": "bar",
+        "x": [
+            "North East",
+            "East Midlands",
+            "West Midlands",
+            "East of England",
+            "North West",
+            "South East",
+            "England and Wales",
+            "Yorkshire and the Humber",
+            "England",
+            "London",
+            "Wales",
+            "South West"
+        ],
+        "y": [
+            4,
+            4,
+            6,
+            7,
+            11,
+            5,
+            10,
+            7,
+            10,
+            32,
+            8,
+            4
+        ],
+        "marker": {
+            "color": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd",
+                "#8c564b",
+                "#e377c2",
+                "#7f7f7f",
+                "#bcbd22",
+                "#17becf",
+                "#1a522f",
+                "#6a3d9a"
+            ]
+        }
+    }
+]

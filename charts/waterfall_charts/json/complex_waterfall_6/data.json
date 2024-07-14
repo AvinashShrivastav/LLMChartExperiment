@@ -1,0 +1,32 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Salary 1",
+            "Salary 2",
+            "Supplies 1",
+            "Supplies 2",
+            "Supplies 3",
+            "Total Expenses"
+        ],
+        "y": [
+            0,
+            -400,
+            -200,
+            -100,
+            -100,
+            -300,
+            -1100
+        ],
+        "measure": [
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "total"
+        ]
+    }
+]

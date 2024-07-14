@@ -1,0 +1,10 @@
+Category,Value
+Beginning,0
+Purchases 1,500
+Purchases 2,200
+Purchases 3,100
+Returns 1,-50
+Returns 2,-30
+Returns 3,-20
+Net Inventory,620
+Sales,-300

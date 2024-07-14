@@ -1,0 +1,19 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Impressions",
+            "Clicks",
+            "Sign-ups",
+            "Leads",
+            "Converted Leads"
+        ],
+        "values": [
+            1000,
+            482,
+            384,
+            146,
+            101
+        ]
+    }
+]

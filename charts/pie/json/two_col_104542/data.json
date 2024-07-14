@@ -1,0 +1,26 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "It is a very bad measure",
+            "It is a bad measure",
+            "It is a good measure",
+            "It is a very good measure"
+        ],
+        "values": [
+            12,
+            22,
+            50,
+            13
+        ],
+        "marker": {
+            "colors": [
+                "#b11919",
+                "#cac8c8",
+                "#1f77b4",
+                "#0d75b0"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Website Visit",
+            "Free Trial Sign-up",
+            "Paid Subscription"
+        ],
+        "values": [
+            1000,
+            339,
+            222
+        ]
+    }
+]

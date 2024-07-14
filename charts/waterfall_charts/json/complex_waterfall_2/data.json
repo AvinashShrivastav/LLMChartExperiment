@@ -1,0 +1,32 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Revenue 1",
+            "Revenue 2",
+            "Costs 1",
+            "Costs 2",
+            "Costs 3",
+            "Net Profit"
+        ],
+        "y": [
+            0,
+            1000,
+            500,
+            -500,
+            -200,
+            -300,
+            -500
+        ],
+        "measure": [
+            "relative",
+            "total",
+            "total",
+            "relative",
+            "relative",
+            "relative",
+            "total"
+        ]
+    }
+]

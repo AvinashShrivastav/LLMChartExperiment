@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Content Views",
+            "Email Subscriptions",
+            "Lead Nurturing",
+            "Sales Qualified Leads"
+        ],
+        "values": [
+            1000,
+            515,
+            332,
+            231
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "title": {
+        "text": "Population Density Heatmap"
+    },
+    "xaxis": {
+        "title": {
+            "text": "X Axis"
+        }
+    },
+    "yaxis": {
+        "title": {
+            "text": "Y Axis"
+        }
+    }
+}

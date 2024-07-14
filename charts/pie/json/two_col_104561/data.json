@@ -1,0 +1,29 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "Energy",
+            "Agriculture",
+            "Forestry and land use",
+            "Industrial processes",
+            "Waste"
+        ],
+        "values": [
+            73,
+            11.8,
+            6.4,
+            5.7,
+            3.2
+        ],
+        "marker": {
+            "colors": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

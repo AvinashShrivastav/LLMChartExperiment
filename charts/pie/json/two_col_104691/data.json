@@ -1,0 +1,26 @@
+[
+    {
+        "type": "pie",
+        "labels": [
+            "PRIDE",
+            "Illuminar Gaming",
+            "devils.one",
+            "Wisla Plock"
+        ],
+        "values": [
+            60,
+            20,
+            10,
+            10
+        ],
+        "marker": {
+            "colors": [
+                "#007bff",
+                "#000080",
+                "#6c757d",
+                "#b30000"
+            ]
+        },
+        "textinfo": "label+percent"
+    }
+]

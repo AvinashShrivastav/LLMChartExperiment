@@ -1,0 +1,28 @@
+[
+    {
+        "type": "bar",
+        "x": [
+            "Germany",
+            "Belgium",
+            "United Kingdom",
+            "France",
+            "United States"
+        ],
+        "y": [
+            20,
+            12,
+            9,
+            7,
+            5
+        ],
+        "marker": {
+            "color": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd"
+            ]
+        }
+    }
+]

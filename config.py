@@ -1,0 +1,1 @@
+gemini_key = "AIzaSyBWS8JkS3EaVtDhx8KZgMy0skbuYeyPWPM"

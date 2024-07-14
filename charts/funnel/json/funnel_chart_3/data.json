@@ -1,0 +1,17 @@
+[
+    {
+        "type": "funnel",
+        "labels": [
+            "Ticket Created",
+            "Assigned",
+            "Resolved",
+            "Closed"
+        ],
+        "values": [
+            1000,
+            517,
+            155,
+            55
+        ]
+    }
+]

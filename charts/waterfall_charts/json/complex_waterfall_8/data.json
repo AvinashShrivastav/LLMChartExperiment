@@ -1,0 +1,29 @@
+[
+    {
+        "type": "waterfall",
+        "x": [
+            "Beginning",
+            "Product A",
+            "Product B",
+            "Product B2",
+            "Product B3",
+            "Total Revenue"
+        ],
+        "y": [
+            0,
+            300,
+            500,
+            200,
+            300,
+            1100
+        ],
+        "measure": [
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "relative",
+            "total"
+        ]
+    }
+]
