@@ -20,3 +20,63 @@ Error processing D:/Chart/charts/pie/img\two_col_104568.png: 500 An internal err
 Error processing charts/heatmap_annotated/img\easy_heatmap_1.png: Expecting value: line 13 column 11 (char 259)
 Error processing charts/heatmap_annotated/img\easy_heatmap_2.png: Expecting value: line 13 column 11 (char 279)
 Error processing charts/heatmap_annotated/img\intermediate_heatmap_4.png: Expecting value: line 13 column 11 (char 262)
+Error processing charts/bar/img\two_col_104898.png: write() argument must be str, not None
+Error processing charts/bar/img\two_col_104909.png: The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.
+Error processing charts/bar/img\two_col_104895.png: write() argument must be str, not None
+Error processing charts/funnel/img\funnel_chart_13.png: write() argument must be str, not None
+Error processing charts/funnel/img\funnel_chart_11.png: write() argument must be str, not None
+Error processing charts/funnel/img\funnel_chart_1.png: write() argument must be str, not None
+Error processing charts/funnel/img\funnel_chart_2.png: write() argument must be str, not None
+Error processing charts/heatmap/img\easy_heatmap_2.png: The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.
+Error processing charts/heatmap/img\intermediate_heatmap_2.png: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+Error processing charts/funnel/img\funnel_chart_14.png: write() argument must be str, not None
+Error processing charts/heatmap/img\complex_heatmap_1.png: write() argument must be str, not None
+Error processing charts/heatmap/img\easy_heatmap_5.png: write() argument must be str, not None
+Error processing charts/line/img\two_col_104286.png: write() argument must be str, not None
+Error processing charts/line/img\two_col_104346.png: write() argument must be str, not None
+Error processing charts/line/img\two_col_104388.png: write() argument must be str, not None
+Error processing charts/line/img\two_col_104453.png: write() argument must be str, not None
+Error processing charts/line/img\two_col_104485.png: write() argument must be str, not None
+Error processing charts/line/img\two_col_104453.png: write() argument must be str, not None
+Error processing charts/pie/img\two_col_104568.png: write() argument must be str, not None
+Error processing charts/pie/img\two_col_104860.png: write() argument must be str, not None
+Error processing charts/pie/img\two_col_104869.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_5.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_8.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_5.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_7.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\intermediate_waterfall_1.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\intermediate_waterfall_3.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_1.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_10.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_2.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_3.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_5.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_6.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_7.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_9.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_1.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_2.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_3.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_4.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_5.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_6.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_7.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_8.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_1.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_10.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_3.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_4.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_5.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_6.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_9.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_1.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_10.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_2.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_3.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_4.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_5.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\easy_waterfall_8.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\intermediate_waterfall_2.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\intermediate_waterfall_4.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\intermediate_waterfall_8.png: write() argument must be str, not None

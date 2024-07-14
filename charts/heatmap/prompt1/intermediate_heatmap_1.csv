@@ -1,0 +1,10 @@
+x_category, y_category, z_value
+A, C, 35
+A, B, 30
+A, A, 25
+B, C, 30
+B, B, 25
+B, A, 20
+C, C, 25
+C, B, 20
+C, A, 15

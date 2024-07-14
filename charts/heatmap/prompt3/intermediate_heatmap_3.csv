@@ -1,0 +1,11 @@
+| x | y | z |
+|-----|-----|-----|
+| City X | City X | 24 |
+| City X | City Y | 22 |
+| City X | City Z | 20 |
+| City Y | City X | 21 |
+| City Y | City Y | 19 |
+| City Y | City Z | 17 |
+| City Z | City X | 18 |
+| City Z | City Y | 16 |
+| City Z | City Z | 14 |

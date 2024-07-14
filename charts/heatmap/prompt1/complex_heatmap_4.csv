@@ -1,0 +1,10 @@
+x,y,z
+Device 1,Device 1,600
+Device 1,Device 2,500
+Device 1,Device 3,400
+Device 2,Device 1,500
+Device 2,Device 2,600
+Device 2,Device 3,450
+Device 3,Device 1,400
+Device 3,Device 2,450
+Device 3,Device 3,600

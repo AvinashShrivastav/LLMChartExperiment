@@ -1,0 +1,16 @@
+x,y,z
+Company A,Company A,140
+Company A,Company B,130
+Company A,Company C,120
+Company A,Company D,110
+Company A,Company E,100
+Company B,Company A,90
+Company B,Company B,80
+Company B,Company C,70
+Company B,Company D,60
+Company B,Company E,50
+Company C,Company A,40
+Company C,Company B,30
+Company C,Company C,20
+Company C,Company D,10
+Company C,Company E,0
