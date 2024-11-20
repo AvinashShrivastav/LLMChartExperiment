@@ -80,3 +80,7 @@ Error processing charts/waterfall_charts/img\easy_waterfall_8.png: write() argum
 Error processing charts/waterfall_charts/img\intermediate_waterfall_2.png: write() argument must be str, not None
 Error processing charts/waterfall_charts/img\intermediate_waterfall_4.png: write() argument must be str, not None
 Error processing charts/waterfall_charts/img\intermediate_waterfall_8.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_1.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_2.png: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+Error processing charts/waterfall_charts/img\complex_waterfall_3.png: write() argument must be str, not None
+Error processing charts/waterfall_charts/img\complex_waterfall_4.png: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
